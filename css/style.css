@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Gilroy-Regular;
+    src: url(./fonts/gilroy/Gilroy-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+.main{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: Gilroy-Regular , sans-serif;
+}
+.main{
+    display: flex;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.left{
+    background-image: url(https://images.unsplash.com/photo-1637393847055-7553c720c805?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.right{
+    background-image: url(https://images.unsplash.com/photo-1615556626922-68da0c9f4350?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.overlay1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.overlay2{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.text-box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+.text-light{
+    top: 80%;
+    color: white;
+}
+.text-box h1{
+    font-size: 5rem;
+    margin-bottom: 1.2rem;
+}
+.text-box p{
+    font-size: 1.8rem;
+}
